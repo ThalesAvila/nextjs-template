@@ -1,6 +1,7 @@
+import React from 'react'
 import Head from 'next/head'
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <>
       <Head>Home</Head>
@@ -10,3 +11,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home
