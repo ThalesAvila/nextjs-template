@@ -7,6 +7,10 @@ Template utilizando [Serverless Next.js Component](https://github.com/serverless
 ```
 $ serverless
 ```
+Aqui um exemplo de como configurar suas credenciais AWS:
+```
+serverless config credentials --provider aws --key AKIAIOSFODNN7EXAMPLE --secret wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+```
 
 ## Features configuradas:
 - Typescript
