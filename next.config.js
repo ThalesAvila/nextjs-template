@@ -9,5 +9,21 @@ module.exports = withImages({
   },
   webpack(config, options) {
     return config
+  },
+  rewrites() {
+    return [
+      {
+        source: '/:path*',
+        destination: '/:path*'
+      },
+      {
+        source: '/:path*',
+        destination: 'https://cra-to-next.vercel.app/:path*'
+      },
+      {
+        source: '/',
+        destination: 'https://cra-to-next.vercel.app/'
+      }
+    ]
   }
 })
